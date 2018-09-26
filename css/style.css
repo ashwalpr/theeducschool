@@ -1,0 +1,1092 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1269px;
+  margin: 0 auto;
+  /* margin: 0, auto; */
+}
+.cf:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/****************************** header-top ***********************/
+header .header-top ul li a {
+  font-weight: 900;
+  font-size: 13px;
+  color: #767676;
+  letter-spacing: 0.4px;
+  display: block;
+  margin-left: 27px;
+  margin-bottom: 47px;
+}
+header .header-top ul li {
+  float: right;
+}
+header .header-top ul li:first-child a {
+  color: #e42a1d;
+}
+header .header-bottom ul li a {
+  font-weight: 900;
+  font-size: 20px;
+  color: #000000;
+  letter-spacing: 0.4px;
+  display: block;
+  margin-left: 27px;
+}
+header .header-bottom ul li {
+  float: right;
+}
+header .wrapper {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/************************ banner **************************/
+.banner {
+  background-image: url(../img/white-college.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.banner .wrapper {
+  min-height: 624px;
+}
+.banner .about {
+  max-width: 467px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 133px;
+  margin-left: 60px;
+}
+.banner .about .heading h2 {
+  line-height: 21px;
+  margin-bottom: 38px;
+}
+.banner .about .heading {
+  display: inline-block;
+  margin-left: 50%;
+
+}
+.banner .about .empower h2 {
+  font-weight: 500;
+  font-size: 47px;
+  text-align: center;
+}
+.banner .about .empower h2:last-child {
+  font-weight: 700;
+}
+.banner .about h2 a {
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-block;
+  padding: 7px 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
+.banner .about h2 a span {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(225deg);
+}
+.banner .about>h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.banner .about p a {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  color: #000;
+}
+.banner .about>a span {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  transform: rotate(315deg);
+  margin-left: 49%;
+}
+
+.banner .articles {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 500px;
+  float: right;
+  padding-top: 75px;
+  margin-right: 75px;
+}
+.banner .articles .container .article h2 {
+  color: #fff;
+}
+
+.banner .articles .container {
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.banner .articles .article {
+  display: inline-block;
+  margin-bottom: 37px;
+}
+.banner .articles .article a:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  color: #bdbbbb;
+  padding: 3px 11px;
+  background-color: black;
+  letter-spacing: -1px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.banner .articles .article a:last-child {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ec0a0a;
+  padding: 1px 9px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 2px;
+}
+.banner .articles .thirdarticle p {
+  display: block;
+  max-width: 348px;
+  color: #bdbbbb;
+  font-weight: 600;
+}
+
+/************************ think-difference ********************/
+.think-difference .wrapper .texts {
+}
+.think-difference .wrapper .texts a h2 {
+  display: inline-block;
+  width: 284px;
+  text-align: center;
+  color: #c7c7c7;
+  padding: 10px 20px;
+  background-color: #000;
+  border-radius: 10px 20px 10px 20px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.think-difference .wrapper .learn {
+  text-align: center;
+}
+.think-difference .wrapper .learn a {
+  font-size: 17px;
+  font-weight: 800;
+  padding: 7px 20px;
+  background-color: red;
+  border-radius: 8px;
+  border-bottom: 2px solid black;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  display: inline-block;
+  color: #000;
+}
+.think-difference .wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+
+
+/************************* popular-course *********************/
+.course {
+  background-image: url(../img/adice.jpg);
+  background-size: cover;
+}
+.course .wrapper {
+  height: 450px;
+  /* background-color: yellow; */
+  padding-top: 166px;
+  padding-left: 149px;
+}
+.course .wrapper .perfect {
+  display: block;
+  padding: 20px;
+  /* margin-top: 166px; */
+  /* margin-right: 149px;                   */
+}
+.course .wrapper .perfect h2 {
+  font-size: 24px;
+  display: block;
+  font-weight: 700;
+  max-width: 331px;
+  margin-bottom: 50px;
+}
+.course .wrapper .perfect a {
+  display: inline-block;
+  padding: 10px 14px;
+  background-color: red;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 4px;
+}
+
+/********************* course-option *************/
+.course-option .wrapper .design {
+  width: calc( 25% - 9.75px);
+  border-radius: 8px;
+  margin-top: 60px;
+}
+.course-option .wrapper .one {
+  background-image: url(../img/stock.jpg);
+}
+.course-option .wrapper .two {
+  background-image: url(../img/health.png);
+  background-size: cover;
+}
+.course-option .wrapper .three {
+  background-image: url(../img/business.png);
+  background-size: cover;
+
+
+}
+.course-option .wrapper .four {
+  background-image: url(../img/nurse.jpg);
+  background-size: cover;
+}
+
+.course-option .wrapper .design:last-child {
+  margin-right: 0;
+}
+.course-option .wrapper .design a {
+  border-radius: 8px;
+  background-color: rgba(255, 187, 0, 0.7);
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 110px 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  background-image: url();
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*********************** opening-up ***********************/
+
+.opening-up {
+  background-image: url(../img/opening1.jpg);
+  background-size: cover;
+  background-position: top;
+
+}
+.opening-up .wrapper>h2 {
+  font-size: 65px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+.opening-up .wrapper>p span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.opening-up .wrapper .paragraph {
+  background-color: #0000007a;
+  display: inline-block;
+  border-radius: 10px 30px 10px 30px;
+  padding: 20px;
+}
+.opening-up .wrapper .paragraph p {
+  font-size: 20px;
+  display: block;
+  max-width: 680px;
+  margin-bottom: 22px;
+  font-weight: 600;
+  color: #e3e600;
+
+}
+.opening-up .wrapper .paragraph a {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.opening-up .wrapper .wq {
+  background-color: #d6e4008f;
+  padding: 20px;
+  border-radius: 10px 30px 10px 30px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.opening-up .wrapper .wq i:first-child {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.opening-up .wrapper .wq h2 {
+  font-size: 20px;
+  display: block;
+  max-width: 74px;
+}
+.opening-up .wrapper .wq p {
+  display: block;
+  max-width: 260px;
+  font-size: 16px;
+}
+.opening-up .wrapper .wq i:last-child {
+  font-size: 22px;
+  font-weight: 600;
+}
+.opening-up .wrapper .wq a {
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+/****************************** university ******************************/
+.university .wrapper .undergraduate {
+  width: 620px;
+  float: left;
+}
+.university .wrapper .margin {
+  margin-right: 10px;
+}
+.university .wrapper .undergraduate .explore {
+  max-width: 600px;
+  padding: 30px;
+  text-align: center;
+  background-color: yellow;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: -10px;
+}
+.university .wrapper .undergraduate .explore .finder {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+.university .wrapper .undergraduate .explore h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.university .wrapper .undergraduate .explore p {
+  font-size: 16px;
+  margin-bottom: 140px;
+}
+.university .wrapper .discover {
+  max-width: 310px;
+  float: left;
+}
+.university .wrapper .discover .text {
+  max-width: 290px;
+  text-align: center;
+  padding: 30px;
+  background-color: yellow;
+  position: relative;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.university .wrapper .discover .text h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.university .wrapper .discover .text .finder {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+.university .wrapper .goldsmith {
+  width: 319px;
+  padding: 30px;
+  text-align: center;
+  background-color: red;
+  height: 530px;
+  float: left;
+  margin-top: -155px;
+}
+.university .wrapper .goldsmith h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+.university .wrapper .goldsmith p {
+  font-size: 16px;
+  margin-bottom: 230px;
+}
+.university .wrapper .goldsmith .finder {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+.university .wrapper .study .text {
+  text-align: center;
+  width: 310px;
+  height: 190px;
+  background-color: yellow;
+  padding: 30px;
+  padding-top: 0;
+  margin-top: 130px;
+  margin-left: 326px;
+}
+.university .wrapper .study {
+  background-image: url(../img/adice.jpg);
+  float: right;
+  width: 627px;
+  height: 340px;
+  margin-top: 20px;
+}
+.university .wrapper .study h3 {
+  display: inline-block;
+  padding: 4px 13px;
+  background-color: red;
+  font-size: 16px;
+  position: relative;
+  top: -30px;
+}
+.university .wrapper .study .text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+.university .wrapper .study .text .finder {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+
+/************************** search *************************/
+.search .wrapper {
+  padding-bottom: 50px;
+}
+.search .wrapper .heading {
+  text-align: center;
+}
+.search .wrapper .heading h2 {
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search .wrapper input[type=text] {
+  font-size: 40px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+}
+.search .wrapper .funding {
+  width: 610px;
+  height: 365px;
+  background-image: url(../img/adice.jpg);
+  float: left;
+}
+.search .wrapper .funding .fees {
+  background-color: yellow;
+  display: inline-block;
+  width: 310px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: -155px;
+  margin-left: 310px;
+  margin-top: 155px;
+}
+.search .wrapper .funding .fees h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+.search .wrapper .funding .fees .cost {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+.search .wrapper .upper .space {
+  margin-right: 27px;
+  margin-top: 20px;
+}
+.search .wrapper .upper .space:last-child {
+  margin-right: 0;
+}
+.search .wrapper .research {
+  width: 300px;
+  padding: 30px;
+  background-color: yellow;
+  text-align: center;
+  float: left;
+}
+.search .wrapper .research h3 {
+  font-size: 12px;
+  font-weight: 500;
+}
+.search .wrapper .research h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.search .wrapper .research p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 146px;
+}
+.search .wrapper .research  .cost {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+.search .wrapper .catch {
+  float: left;
+  width: 300px;
+  height: 170px;
+}
+.search .wrapper .catch .films {
+  width: 280px;
+  position: relative;
+  padding: 30px;
+  background-color: yellow;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+.search .wrapper .catch .films h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.search .wrapper .catch .films .cost {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+.search .wrapper .lower .space {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.search .wrapper .lower .space:last-child {
+  margin-right: 0px;
+}
+.search .wrapper .departments {
+  text-align: center;
+  width: 300px;
+  float: left;
+}
+.search .wrapper .departments .department {
+  width: 280px;
+  text-align: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  padding-top: 0;
+  background-color: yellow;
+  position: relative;
+  top: -10px;
+}
+.search .wrapper .departments .department h3 {
+  font-size: 14px;
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: red;
+  position: relative;
+  top: -35px;
+}
+.search .wrapper .departments .department h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.search .wrapper .departments .department .law {
+  text-align: left;
+  border-top: 2px solid black;
+  padding-top: 14px;
+}
+
+/************************** child ************************/
+.child .wrapper {
+  height: 570px;
+  background-image: url(../img/adice.jpg);
+}
+.child .wrapper .educate {
+  width: 300px;
+  background-color: yellow;
+  display: inline-block;
+  margin-top: 87px;
+}
+.child .wrapper .educate a:first-child {
+  font-size: 18px;
+  font-size: 600;
+  display: inline-block;
+  padding: 8px;
+  background-color: red;
+  margin-bottom: 30px;
+}
+.child .wrapper .educate h2 {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.child .wrapper .educate p {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+.child .wrapper .educate a span {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 18px 28px;
+  background-color: red;
+  margin-right: 30px;
+}
+.child .wrapper .educate a:last-child {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/*********************** satisfaction *****************************/
+.satisfaction .wrapper {
+  background-color: grey;
+  height: 570px;
+}
+.satisfaction .wrapper .best {
+  width: 760px;
+  display: inline-block;
+  background-color: yellow;
+  margin-top: 130px;
+}
+.satisfaction .wrapper .best h3 {
+  font-size: 32px;
+  font-weight: 900;
+}
+.satisfaction .wrapper .best h2 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.satisfaction .wrapper .best p {
+  font-size: 20px;
+  font-size: 600;
+  margin-bottom: 40px;
+}
+.satisfaction .wrapper .best a {
+  font-size: 22px;
+  padding: 19px 30px;
+  display: inline-block;
+  border: 4px solid black;
+  font-weight: 900;
+}
+.satisfaction .wrapper .subjects {
+  margin-top: 60px;
+  float: right;
+}
+.satisfaction .wrapper .subjects .stand {
+  width: 405px;
+  background-color: orange;
+  padding: 30px;
+  position: relative;
+  top: -30px;
+}
+.satisfaction .wrapper .subjects .stand h4 {
+  font-size: 16px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.satisfaction .wrapper .subjects .stand p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/*************************** open ************************/
+.open .background {
+  width: 1290px;
+  height: 580px;
+  float: right;
+}
+.open .wrapper{
+  height: 700px;
+}
+.open .wrapper .image {
+  width: 415px;
+  height: 415px;
+  background-image: url(../img/adice.jpg);
+  position: relative;
+  top: 163px;
+}
+.open .wrapper .image .border {
+  width: 415px;
+  height: 415px;
+  border: 12px solid red;
+  position: relative;
+  top: -22px;
+  left: 25px;
+}
+.open .wrapper .container {
+  position: relative;
+  top: -466px;
+}
+.open .wrapper .container .heading {
+  display: inline-block;
+  width: 743px;
+  margin-left: 300px;
+}
+.open .wrapper .container .heading h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+.open .wrapper .container .text {
+  margin-left: 512px;
+  margin-top: 56px;
+}
+.open .wrapper .container .text p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 44px;
+}
+.open .wrapper .container .text a {
+  font-size: 22px;
+  font-weight: 900;
+  display: inline-block;
+  padding: 20px 30px;
+  border: 6px solid black;
+}
+
+/************************* research ***********************/
+.research {
+  background-color: #000;
+}
+.research .wrapper {
+  height: 1710px;
+  background-color: black;
+  margin-bottom: 80px;
+}
+.research .wrapper h1 {
+  display: inline-block;
+  font-size: 120px;
+  margin-top: 135px;
+  color: white;
+  margin-bottom: 667px;
+}
+.research .wrapper .text {
+  width: 590px;
+  margin-left: 440px;
+}
+.research .wrapper .text p {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: white;
+}
+.research .wrapper .text a {
+  font-size: 13px;
+  font-weight: 600;
+}
+.research .wrapper .number {
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.research .wrapper .number .inner {
+  text-align: center;
+  width: 280px;
+  height: 500px;
+}
+.research .wrapper .number .inner h1 {
+  font-size: 120px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.research .wrapper .number .inner p {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+
+/* campus */
+.campus {
+  margin-bottom: 80px;
+}
+.campus {
+  position: relative;
+}
+.campus .campus-one {
+  background-image: url(../img/bann.jpg);
+  width: 1250px;
+  height: 600px;
+  padding-left: 200px;
+  padding-top: 200px;
+  color: #fff;
+
+}
+.campus .campus-one h1 {
+  font-size: 50px;
+
+}
+.campus h4 {
+  font-size: 30px;
+  margin-top: 30px;
+
+}
+.campus .extra-campus {
+  position: absolute;
+  right: 0;
+  top: 7%;
+}
+.campus .campus-two {
+  width: 450px;
+  height: 300px;
+  background-color: yellow;
+  padding-top: 205px;
+  padding-left: 20px;
+}
+.campus .campus-three {
+  width: 450px;
+  height: 190px;
+  background-color: red;
+  margin-left: -30px;
+  margin-top: 40px;
+  padding-top: 100px;
+  padding-left: 20px;
+}
+ /* footer */
+ /******************* footer *******************/
+.footer-top {
+  background-color: #000;
+}
+.footer-top .wrapper {
+  padding: 79px 0px 27px 0px;
+}
+.footer-top .inner {
+  max-width: 262.5px;
+  margin-right: 30px;
+}
+.footer-top .inner a img {
+  margin-top: 6px;
+  margin-bottom: 13px;
+}
+.footer-top .inner p {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 23px;
+  max-width: 262.5px;
+  line-height: 1.71429;
+}
+.footer-top .inner a:last-child {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #777777;
+  padding: 9.5px 20.8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #777777;
+  display: inline-block;
+}
+.footer-top .inner a:last-child:hover {
+  transition: .3s ease;
+  background-color: #777777;
+  color: #fff;
+}
+.footer-top .popular {
+  max-width: 262.5px;
+  margin-right: 30px;
+}
+.footer-top .main {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 29px;
+  color: #777777;
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgba(232, 232, 232, 0.1);
+}
+.footer-top .popular ul {
+  list-style: none;
+}
+.footer-top .popular ul li{
+  width: 262.5px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+.footer-top .popular ul li a {
+  width: 100%;
+}
+.footer-top .popular ul li .shadow {
+  position: relative;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.footer-top .popular ul li .shadow:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 192, 0, 0.6);
+  z-index: 129;
+  height: 100%;
+  transform: translateY(-100%);
+  transition: 0.25s all ease;
+}
+.footer-top .popular ul  li a:hover .shadow:after {
+  transform: translateY(0);
+
+}
+.footer-top .popular ul li img {
+  display: block;
+}
+.footer-top .popular ul li .writing {
+  width: 182.5px;
+}
+.footer-top .popular ul li .writing p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.28571;
+}
+.footer-top .popular ul li:hover .writing p {
+  transition: .3s ease;
+  color: #34c7dc;
+}
+.footer-top .popular ul li .writing .blue {
+  font-weight: 700;
+  color: #34c7dc;
+  line-height: 1.28571;
+  margin-top: 4px;
+}
+.footer-top .popular ul li .writing .green {
+  font-weight: 700;
+  color: #3c763d;
+  line-height: 1.28571;
+}
+.footer-top .links {
+  width: 262.5px;
+}
+.footer-top .links h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #777777;
+}
+.footer-top .links ul li a {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #777777
+}
+.footer-top .links ul li a:hover {
+  transition: .3s ease;
+  color: #fff;
+}
+.footer-top .links ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-top .links ul li {
+  margin-bottom: 10px;
+  color: #777777;
+  list-style-position: inside;
+}
+.footer-top .contact {
+  max-width: 262px;
+}
+.footer-top .contact h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #777777;
+}
+.footer-top .contact>p {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.78571;
+  color: #777777;
+  margin-bottom: 23px;
+}
+.footer-top .contact .awesome {
+  margin-top: 12px;
+}
+.footer-top .contact .awesome i {
+  color: #FFC000;
+  font-size: 20px;
+}
+.footer-top .contact .q i{
+  margin-top: -20px;
+}
+.footer-top .contact .awesome p {
+  width: 92%;
+  color: #777777;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 6px;
+}
+.footer-top .wrapper .height {
+  float: left;
+  margin-right: 30px;
+}
+.footer-top .wrapper .height:last-child {
+  margin-right: 0;
+}
+
+.footer-bottom {
+  padding: 31px 0;
+  background-color: #222222;
+  border-top: 1px solid rgba(208, 208, 208, 0.04);
+}
+.footer-bottom  .wrapper p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  display: inline-block;
+}
+.footer-bottom  .wrapper .social-media li {
+  list-style: none;
+  float: right;
+}
+.footer-bottom  .wrapper .social-media li i{
+  color: #777777;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.footer-bottom  .wrapper>a {
+  position: absolute;
+}
